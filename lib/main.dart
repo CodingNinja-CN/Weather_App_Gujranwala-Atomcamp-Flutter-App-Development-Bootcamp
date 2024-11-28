@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app_gujranwala/loading.dart';
+import 'package:weather_app_gujranwala/homeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Loading(),
+      home: HomeScreen(),
     );
   }
 }
